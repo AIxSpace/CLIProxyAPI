@@ -5,6 +5,7 @@ run:
 	./cli-proxy-api
 
 start:
+	mkdir -p logs
 	nohup ./cli-proxy-api > logs/server.log 2>&1 & echo $$! > logs/server.pid
 
 stop:
