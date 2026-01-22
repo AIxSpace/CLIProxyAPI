@@ -48,4 +48,4 @@ _bmad-output/*
 # macOS
 .DS_Store
 ._*
-.idea
+.idea/*
